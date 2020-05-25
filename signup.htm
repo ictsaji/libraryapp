@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styletour.css">
+  
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script><link rel="icon" href="kt.png" > 
+    <title>icttourism</title>
+        
+  </head>
+
+  <body>
+    <div class="container-fluid bg-warning" style="border-bottom:3px solid green">
+      <div class="row">
+        <div class="col-md-8">
+          <h1 class="text text-right " style="height: 60px;">  kerala tourism</h1>
+        </div>
+        <div class="col-md-4 ">
+          
+          <div class="container">
+            <div class="row">
+              <div class=" col-md-2">
+                
+                <button class="btn btn-outline-success  " type="submit" onclick="location.href = 'your_link';">Log In</button>
+              </div>
+              <div class=" col-sm-2">
+                <button class="btn btn-outline-success " type="submit" onclick="location.href = 'your_link';"">Sign UP</button>
+              </div>
+               
+            </div> 
+          </div> 
+
+        </div>
+   
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-md navbar-light bg-danger">
+      <a class="navbar-brand" href="kth.png">
+        <img src="kticon.png" alt="keralatourism" style="width:50px;padding-right: 0px;"
+      </a>
+          
+      <div class="collapse navbar-collapse" id="nav1">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#tour.htm">Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="#" >link 4</a>
+          </li>
+        </ul>
+        <form class="form-inline ">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+    <div style="height: 60px; background-color: hotpink;">
+      <h1 class=" text text-center "> Experience kerala</h1>
+    </div>
+
+    <div class="container">
+      <div class="row">
+          <div class="col-md-12  section-head">
+              <h2 class="text text-center">SIGN UP</h2>
+              <span class="sub-head"></span>
+          </div>
+      </div>
+    </div>
+    
+ 
+    <div class="container">
+    <br>  
+    <p class="text-center">Please register here </p>
+    <hr>
+
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+          <div class="card">
+            <header class="card-header">
+              <a href="logintour.htm" class="float-right btn btn-outline-primary mt-1">Log in</a>
+              <h4 class="card-title mt-2">Sign up</h4>
+            </header>
+          <article class="card-body">
+
+
+            <form action="tour.htm" id="sform" onsubmit="return !!(emailtest()&phntest()&passtest());">
+              <div class="form-row" >
+                  <div class="col form-group">
+                      <label>First name </label>   
+                      <input id="fname"  type="text" class="form-control" placeholder="use alphabets only(20)" >
+                  </div> 
+                  <div class="col form-group">
+                      <label>Last name</label>
+                      <input id="lname"  type="text" class="form-control" placeholder="use alphabets only(20)">
+                  </div> 
+              </div> 
+              <div class="form-group">
+                  <label>Email address</label>
+                  <input id="eml" type="email" class="form-control" placeholder="abcdef@xyz.lmn">
+                  <small class="form-text text-muted">We will never share your email with anyone else.</small>
+              </div> 
+              <div class="form-group">
+                  <label>Phone Number</label>
+                  <input id="phn" type="tel" class="form-control" placeholder="xxx-/.xxx-/.xxxx">
+                
+              </div> 
+              <div class="form-group">
+                    <label class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="gender" value="option1">
+                    <span class="form-check-label"> Male </span>
+                    </label>
+                    <label class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="gender" value="option2">
+                    <span class="form-check-label"> Female</span>
+                    </label>
+              </div> 
+              <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label>City</label>
+                    <input id="city" type="text" class="form-control">
+                  </div> 
+                  <div class="form-group col-md-6">
+                    <label>Country</label>
+                    <input id="country" type="text" class="form-control">
+                                
+                  </div> 
+              </div> 
+              <div class="form-group">
+                  <label>Create password</label>
+                  <input  id="crpass" class="form-control" type="password" placeholder="use alphanumerics&spl chrts">
+              </div>
+              <div class="form-group">
+                  <label>Confirm password</label>
+                  <input id="cfpass" class="form-control" type="password" placeholder="use alphanumerics&spl chrts">
+              </div>
+              <label id="power"></label>
+
+              <div class="form-group">
+                  <button type="submit" class="btn btn-primary btn-block"> Register  </button>
+              </div>      
+                  <small class="text-muted">By clicking the 'Sign Up' button, you confirm that you accept our <br> Terms of use and Privacy Policy.</small>                                          
+            </form>
+          </article>
+
+              <div class="border-top card-body text-center">already have an account? <a href="logintour.htm">Log In</a></div>
+          </div> 
+        </div> 
+
+    </div> 
+
+  
+    <div class="card">
+      <footer class="card-footer">
+        
+      </footer>
+    
+
+   <script>
+
+     //variable declarations for pattern check
+var fstname=document.getElementById("fname");
+var lstname=document.getElementById("lname");
+var email=document.getElementById("eml");
+var phno=document.getElementById("phn");
+var cty=document.getElementById("city");
+var cntry=document.getElementById("country");
+var crpas=document.getElementById("crpass");
+var cfpas=document.getElementById("cfpass");
+var passpow=document.getElementById("power");
+
+//pattern definitions
+var fnameexp=/^([A-Za-z]{1,20})$/;
+var lnameexp=/^([A-Za-z]{1,20})$/;                          
+var emlexp=/^([\w\.\-]+)@([a-z]{2,20})\.([a-z]{2,5})(\.[a-z]{2,4})?$/;
+var phnexp=/^([0-9]{3})[\-. ]?([0-9]{3})[\-. ]?([0-9]{4})$/;
+var cityexp=/^([A-Za-z]{1,20})$/;
+var countryexp=/^([A-Za-z]{1,20})$/;
+var crpassexp=/^([\w]+[\@$#%&!^*]+)$/;
+var cfpassexp=/^([\w]+[\@$#%&!^*]+)$/;
+
+//javascript validation of form
+//email validation
+
+function emailtest()
+ {
+          if (emlexp.test(email.value)) { return true;}
+            else 
+            { alert("enter a proper email in format");
+                  return false; }
+  }
+
+//mobile validation
+
+  function phntest()
+ {
+          if (phnexp.test(phno.value)) { return true;}
+            else 
+            { alert("enter a phone number in format");
+                  return false; }
+ }
+
+
+//password validation
+function passtest()
+ {
+          if (crpassexp.test(crpas.value)) { return true;}
+            else 
+            { alert("enter a password in the specified format");
+                  return false; }
+
+ }
+
+//password strength
+if (crpas.value.length<5) { passpow.innerText="password is weak";
+                          passpow.style.borderColor="red";
+                          passpow.style.color="red";
+  
+                          }
+ else if (crpas.value.length>=5 && crpas.value.length<10 ) { passpow.innerText="password is moderate";
+                          passpow.style.borderColor="orange";
+                          passpow.style.color="orange";
+  
+  }
+else   { passpow.innerText="password is strong";
+                          passpow.style.borderColor="green";
+                          passpow.style.color="green";
+       }
+
+  
+   </script>    
+    
+  </body>
+</html>
